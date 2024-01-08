@@ -1,0 +1,36 @@
+html,
+body {
+  background-color: blanchedalmond;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  background-color: rgb(147, 230, 230);
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  height: 40px;
+  width: 90px;
+}
+button:hover{
+  cursor: pointer;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
